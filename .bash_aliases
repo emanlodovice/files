@@ -1,2 +1,8 @@
-alias serve_local="./bin/manage serve_local"
-alias runserve="./bin/manage runserver"
+alias runserver="./bin/manage runserver"
+alias migrate="./bin/manage migrate"
+alias prunserver="python manage.py runserver"
+
+alias xclip="xclip -selection c -i "
+
+alias serve="python -m SimpleHTTPServer"
+
