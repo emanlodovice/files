@@ -120,3 +120,8 @@ source ~/.git-prompt.sh
 
 # add color to prompt
 export PS1="\[\033[41m\]\u\[\e[0m\]\[\033[44m\][\w]\[\e[0m\]\[\033[42m\]\$(__git_ps1)\[\e[0m\]\[\e[00;37m\]\\$ \[\e[0m\]"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH="$PATH:~/scripts"
